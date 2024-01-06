@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./scripts.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <audio id="kazenosasayaki-audio" src="./assets/風のささやき.mp3"></audio>
+    <audio id="goodnightbaby-audio" src="./assets/GOOD NIGHT BABY.mp3"></audio>
+    <main>
+      <div class="playlist-panel">
+        <div class="playlist-backgroundcolor">
+          <div class="content-spacing">
+            <div class="playlist-image">
+              <img src="./assets/Aimyon.jpeg" alt="" />
+            </div>
+            <div class="playlist-information">
+              <span>플레이리스트</span>
+              <h1>あいみょん</h1>
+              <div><span>2곡,</span><span> 9분 24초</span></div>
+            </div>
+          </div>
+          <div class="songs-spacing">
+            <div class="playlist-controlbox">
+              <button>
+                <span
+                  ><svg
+                    data-encore-id="icon"
+                    role="img"
+                    aria-hidden="true"
+                    viewBox="0 0 24 24"
+                    class="Svg-sc-ytk21e-0 iYxpxA"
+                  >
+                    <path
+                      d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"
+                    ></path></svg
+                ></span>
+              </button>
+            </div>
+            <div class="playlist-songs">
+              <div class="songs-information">
+                <div><span>#</span></div>
+                <div><span>제목</span></div>
+                <div><span>앨범</span></div>
+                <div><span>추가한 날짜</span></div>
+                <div>
+                  <span
+                    ><svg
+                      data-encore-id="icon"
+                      role="img"
+                      aria-hidden="true"
+                      viewBox="0 0 16 16"
+                      class="Svg-sc-ytk21e-0 kPpCsU"
+                    >
+                      <path
+                        d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z"
+                      ></path>
+                      <path
+                        d="M8 3.25a.75.75 0 0 1 .75.75v3.25H11a.75.75 0 0 1 0 1.5H7.25V4A.75.75 0 0 1 8 3.25z"
+                      ></path></svg
+                  ></span>
+                </div>
+              </div>
+              <div class="songs">
+                <div class="song-number" id="kazenosasayaki">
+                  <div>
+                    <span>1</span>
+                    <svg
+                      data-encore-id="icon"
+                      role="img"
+                      aria-hidden="true"
+                      class="Svg-sc-ytk21e-0 iYxpxA UIBT7E6ZYMcSDl1KL62g"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <img src="./assets/청춘의 익사이트먼트.jpg" alt="" />
+                    <span><span>바람의 속삭임</span><span>아이묭</span></span>
+                  </div>
+                  <div><span>청춘의 익사이트먼트</span></div>
+                  <div><span>2024년 1월 6일</span></div>
+                  <div><span>3:54</span></div>
+                </div>
+                <div class="song-number" id="goodnightbaby">
+                  <div>
+                    <span>1</span>
+                    <svg
+                      data-encore-id="icon"
+                      role="img"
+                      aria-hidden="true"
+                      class="Svg-sc-ytk21e-0 iYxpxA UIBT7E6ZYMcSDl1KL62g"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <img src="./assets/순간적 식스센스.jpg" alt="" />
+                    <span><span>GOOD NIGHT BABY</span><span>아이묭</span></span>
+                  </div>
+                  <div><span>순간적 식스센스</span></div>
+                  <div><span>2024년 1월 6일</span></div>
+                  <div><span>5:30</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="lyrics-panel">
+        <div class="lyrics-margin">
+          <div class="lyrics">
+            <div>
+              <span>이대로 아침이 오지 않으면 좋을 텐데</span>
+              <span>코노마마 아사가 코나케랴 이이노니</span>
+              <span>このまま朝が来なけりゃいいのに</span>
+            </div>
+            <div>
+              <span>새카만 이불 안에서 몸을 웅크리고</span
+              ><span>우즈쿠맛테루 맛쿠라나 후톤노 나카데</span
+              ><span>うずくまってる真っ暗な布団の中で</span>
+            </div>
+            <div>
+              <span>또 그 녀석과 그 녀석을 흠씬 때려 주었어</span>
+              <span>마타 아이츠토 아이츠오 분나굿테얏타</span>
+              <span>またあいつとあいつをぶん殴ってやった</span>
+            </div>
+            <div>
+              <span>그래도 변함없는 생활에</span>
+              <span>소레데모 카와라나이 세이카츠니</span>
+              <span>それでも変わらない生活に</span>
+            </div>
+            <div>
+              <span>평생의 소원이라도 이뤘다면</span>
+              <span>잇쇼노 오네가이토카 츠카에타나라</span>
+              <span>一生のお願いとか使えたなら</span>
+            </div>
+            <div>
+              <span>이 앞은 나 아닌 누군가로 바꿔 줘</span>
+              <span>코노 사키오 보쿠쟈나이 다레카니 카에테</span>
+              <span>この先を僕じゃない誰かに変えて</span>
+            </div>
+            <div>
+              <span>되는 대로 샀던 컴퍼스</span>
+              <span>테키토니 캇타 콤파스</span>
+              <span>適当に買ったコンパス</span>
+            </div>
+            <div>
+              <span>바라보기만 하는 시간</span>
+              <span>나가메루다케노 지칸</span>
+              <span>眺めるだけの時間</span>
+            </div>
+            <div>
+              <span>들어본 적도 없는 이름의 담배를 태워</span>
+              <span>키이타코토노나이 나마에노 타바코오 후카스</span>
+              <span>聞いたことのない名前のタバコをふかす</span>
+            </div>
+            <div>
+              <span>산책 나가는 것도 목숨 걸어야겠네</span>
+              <span>산포니 유쿠노모 이노치가케다나</span>
+              <span>散歩に行くのも命がけだな</span>
+            </div>
+            <div>
+              <span>아아 오늘은 울어 볼까</span>
+              <span>아아 쿄오와 나이테미요카나</span>
+              <span>ああ今日は泣いてみようかな</span>
+            </div>
+            <div>
+              <span>바람의 속삭임이 귀에 거슬려</span>
+              <span>카제노 사사야키 미미자와리다</span>
+              <span>風のささやき 耳障りだ</span>
+            </div>
+            <div>
+              <span>나에 대해 아무것도 모르는 주제에 웃기고 있어</span>
+              <span>보쿠노 코토 난모 시라나이 쿠세니 후자켄나</span>
+              <span>僕のことなんも知らないくせにふざけんな</span>
+            </div>
+            <div>
+              <span>티파니 블루 하늘 아래</span>
+              <span>티파니 브루노 소라노 시타</span>
+              <span>ティファニーブルーの空の下</span>
+            </div>
+            <div>
+              <span>쫓아가던 멍청한 꿈</span>
+              <span>오이츠즈케테이루 바카나 유메</span>
+              <span>追い続けている馬鹿な夢</span>
+            </div>
+            <div>
+              <span>손에 잡힐 듯 잡히질 않네</span>
+              <span>테니 토도키소오데 토도카나이나</span>
+              <span>手に届きそうで届かないなあ</span>
+            </div>
+            <div>
+              <span>언제건 꿈은 있는가 있는가 하고</span>
+              <span>이츠노 히모 유메와 아루카 아루카토</span>
+              <span>いつの日も夢はあるかあるかと</span>
+            </div>
+            <div>
+              <span>묻는 털보가 있고</span>
+              <span>토우 히게모쟈가 이루시</span>
+              <span>問う髭もじゃがいるし</span>
+            </div>
+            <div>
+              <span>거추장스러워도 손댈 수 없는 현실이 있고</span>
+              <span>쟈마쿠사쿠테모 후레루코토가 데키나이 겐지츠가 앗테</span>
+              <span>邪魔くさくても触れる事ができない現実があって</span>
+            </div>
+            <div>
+              <span>출퇴근 카드는 이렇게나 시커멓게 메꿔졌는데</span>
+              <span>타이무카도와 콘나니 맛쿠로니 우맛텐노니</span>
+              <span>タイムカードはこんなに真っ黒に埋まってんのに</span>
+            </div>
+            <div>
+              <span>오늘도 주머니 속엔 휴짓조각 동메달</span>
+              <span>쿄오모 포켓토노 나카와 카미쿠즈 도오메다루</span>
+              <span>今日もポケットの中は紙クズ銅メダル</span>
+            </div>
+            <div>
+              <span>진지한 척 하는 의사선생님</span>
+              <span>마지메나 후리시타 도쿠타</span>
+              <span>真面目なふりしたドクター</span>
+            </div>
+            <div>
+              <span>염증나는 대사뿐야</span>
+              <span>키키아키타 세리후 바카리</span>
+              <span>聞き飽きた台詞ばかり</span>
+            </div>
+            <div>
+              <span>떨리는 손을 움켜쥐고 집요하게 말해</span>
+              <span>후루에소오나 테오 니기리 시츠코쿠 보쿠니 유우</span>
+              <span>震えそうな手を握りしつこく僕に言う</span>
+            </div>
+            <div>
+              <span>'무슨 일 있으면 다시 와요'</span>
+              <span>나니카 아레바 마타 오이데요</span>
+              <span>「何かあればまたおいでよ」</span>
+            </div>
+            <div>
+              <span>결국 그 정도구나</span>
+              <span>켓쿄쿠 손나몬난다나</span>
+              <span>結局そんなもんなんだな</span>
+            </div>
+            <div>
+              <span>구름이 흘러 잰걸음으로</span>
+              <span>쿠모와 나가레루 아시바야니네</span>
+              <span>雲は流れる 足早にね</span>
+            </div>
+            <div>
+              <span>나를 들여다보고 있다는 듯 웃지 마</span>
+              <span>보쿠노코토 마루데 싯테루 요니 와라우나요</span>
+              <span>僕のことまるで知ってるように笑うなよ</span>
+            </div>
+            <div>
+              <span>힘내라고 말하지 마 쓰레기야</span>
+              <span>간바레난테 유우나요 쿠소가</span>
+              <span>頑張れなんて言うなよクソが</span>
+            </div>
+            <div>
+              <span>죽기 살기로 살고 있단 말이야</span>
+              <span>시니모노구루이데 이키텐다</span>
+              <span>死に物狂いで生きてんだ</span>
+            </div>
+            <div>
+              <span>그렇게 쉽게 말하지 말아줘</span>
+              <span>소오 칸탄니 이와나이데오쿠레</span>
+              <span>そう簡単に言わないでおくれ</span>
+            </div>
+            <div>
+              <span>바람의 속삭임이 귀에 거슬려</span>
+              <span>카제노 사사야키 미미자와리다</span>
+              <span>風のささやき 耳障りだ</span>
+            </div>
+            <div>
+              <span>나에 대해 아무것도 모르는 주제에 웃기고 있어</span>
+              <span>보쿠노 코토 난모 시라나이 쿠세니 후자켄나</span>
+              <span>僕のことなんも知らないくせにふざけんな</span>
+            </div>
+            <div>
+              <span>티파니 블루 하늘 아래</span>
+              <span>티파니 브루노 소라노 시타</span>
+              <span>ティファニーブルーの空の下</span>
+            </div>
+            <div>
+              <span>쫓아가던 멍청한 꿈</span>
+              <span>오이츠즈케테이루 바카나 유메</span>
+              <span>追い続けている馬鹿な夢</span>
+            </div>
+            <div>
+              <span>손에 잡힐 듯 잡히질 않네</span>
+              <span>테니 토도키소오데 토도카나이나</span>
+              <span>手に届きそうで届かないなあ</span>
+            </div>
+            <div>
+              <span>조금만 더 힘내 볼게</span>
+              <span>모오 스코시다케 간밧테미루사</span>
+              <span>もう少しだけ頑張ってみるさ</span>
+            </div>
+            <div>
+              <span>내가 있을 자리는</span>
+              <span>보쿠노 이바쇼와</span>
+              <span>僕の居場所は</span>
+            </div>
+            <div>
+              <span>어디지</span>
+              <span>도코다이</span>
+              <span>どこだい</span>
+            </div>
+            <p>
+              가사 제공: 수 (https://m.blog.naver.com/dmstn2268/222068993220)
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="information-panel">
+        <div class="information-padding">
+          <div class="artist-name">あいみょん</div>
+          <div class="information">
+            <div class="song-youtube">
+              <a
+                href="https://youtu.be/bnD-MpyhofY?si=RQ59FvQv24sLw4AX"
+                target="_blank"
+                ><img src="./assets/카제노사사야키.jpg" alt=""
+              /></a>
+              <div><span>바람의 속삭임</span><span>아이묭</span></div>
+            </div>
+            <div class="artist-information">
+              <div class="artist-picture">
+                <div>아티스트 상세정보</div>
+                <div><img src="./assets/FaXVy2eUUAEQ-Di.jpeg" alt="" /></div>
+              </div>
+              <div class="artist-about">
+                <span>아이묭</span>
+                <div><span>출생</span><span>1995년 3월 6일 (28세)</span></div>
+                <div><span>국적</span><span>일본</span></div>
+                <div><span>신체</span><span>161cm, 45kg</span></div>
+                <div>
+                  <span>소속사</span
+                  ><span>엔즈 엔터테인먼트 (エンズエンターテイメント)</span>
+                </div>
+                <div>
+                  <span>레이블</span><span>unBORDE / WARNER MUSIC JAPAN</span>
+                </div>
+                <div>
+                  <span>인디즈 데뷔</span
+                  ><span>2015년 싱글 貴方解剖純愛歌 〜死ね〜</span>
+                </div>
+                <div>
+                  <span>메이저 데뷔</span
+                  ><span>2016년 싱글 生きていたんだよな</span>
+                </div>
+                <div>
+                  <span>링크</span>
+                  <a href="https://www.aimyong.net/" target="_blank"
+                    ><img src="./assets/homepage.svg" alt="" /><span
+                      >홈페이지</span
+                    ></a
+                  >
+                  <a href="https://www.instagram.com/aimyon36/" target="_blank"
+                    ><img src="./assets/instagram.svg" alt="" /><span
+                      >인스타그램</span
+                    ></a
+                  >
+                  <a
+                    href="https://www.tiktok.com/@aimyon_official"
+                    target="_blank"
+                    ><img src="./assets/tiktok.svg" alt="" /><span
+                      >틱톡</span
+                    ></a
+                  >
+                  <a href="https://twitter.com/aimyonGtter" target="_blank"
+                    ><img src="./assets/twitter.svg" alt="" /><span
+                      >트위터</span
+                    ></a
+                  >
+                  <a href="https://www.youtube.com/user/aimyong" target="_blank"
+                    ><img src="./assets/youtube.svg" alt="" /><span
+                      >유튜브</span
+                    ></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="now-song">
+        <div class="center-now-song">
+          <img src="/assets/무제.jpg" alt="" />
+          <div><span></span><span></span></div>
+        </div>
+      </div>
+      <div class="playbar">
+        <div class="playbar-center">
+          <div class="play">
+            <div>
+              <button>
+                <svg
+                  data-encore-id="icon"
+                  role="img"
+                  aria-hidden="true"
+                  viewBox="0 0 16 16"
+                  class="Svg-sc-ytk21e-0 kPpCsU"
+                >
+                  <path
+                    d="M13.151.922a.75.75 0 1 0-1.06 1.06L13.109 3H11.16a3.75 3.75 0 0 0-2.873 1.34l-6.173 7.356A2.25 2.25 0 0 1 .39 12.5H0V14h.391a3.75 3.75 0 0 0 2.873-1.34l6.173-7.356a2.25 2.25 0 0 1 1.724-.804h1.947l-1.017 1.018a.75.75 0 0 0 1.06 1.06L15.98 3.75 13.15.922zM.391 3.5H0V2h.391c1.109 0 2.16.49 2.873 1.34L4.89 5.277l-.979 1.167-1.796-2.14A2.25 2.25 0 0 0 .39 3.5z"
+                  ></path>
+                  <path
+                    d="m7.5 10.723.98-1.167.957 1.14a2.25 2.25 0 0 0 1.724.804h1.947l-1.017-1.018a.75.75 0 1 1 1.06-1.06l2.829 2.828-2.829 2.828a.75.75 0 1 1-1.06-1.06L13.109 13H11.16a3.75 3.75 0 0 1-2.873-1.34l-.787-.938z"
+                  ></path>
+                </svg>
+              </button>
+              <button>
+                <svg
+                  data-encore-id="icon"
+                  role="img"
+                  aria-hidden="true"
+                  viewBox="0 0 16 16"
+                  class="Svg-sc-ytk21e-0 kPpCsU"
+                >
+                  <path
+                    d="M3.3 1a.7.7 0 0 1 .7.7v5.15l9.95-5.744a.7.7 0 0 1 1.05.606v12.575a.7.7 0 0 1-1.05.607L4 9.149V14.3a.7.7 0 0 1-.7.7H1.7a.7.7 0 0 1-.7-.7V1.7a.7.7 0 0 1 .7-.7h1.6z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+            <div>
+              <button>
+                <svg
+                  data-encore-id="icon"
+                  role="img"
+                  aria-hidden="true"
+                  viewBox="0 0 16 16"
+                  class="Svg-sc-ytk21e-0 kPpCsU"
+                >
+                  <path
+                    d="M2.7 1a.7.7 0 0 0-.7.7v12.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V1.7a.7.7 0 0 0-.7-.7H2.7zm8 0a.7.7 0 0 0-.7.7v12.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V1.7a.7.7 0 0 0-.7-.7h-2.6z"
+                  ></path>
+                </svg>
+                <svg
+                  data-encore-id="icon"
+                  role="img"
+                  aria-hidden="true"
+                  viewBox="0 0 16 16"
+                  class="Svg-sc-ytk21e-0 kPpCsU"
+                >
+                  <path
+                    d="M3 1.713a.7.7 0 0 1 1.05-.607l10.89 6.288a.7.7 0 0 1 0 1.212L4.05 14.894A.7.7 0 0 1 3 14.288V1.713z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+            <div>
+              <button>
+                <svg
+                  data-encore-id="icon"
+                  role="img"
+                  aria-hidden="true"
+                  viewBox="0 0 16 16"
+                  class="Svg-sc-ytk21e-0 kPpCsU"
+                >
+                  <path
+                    d="M12.7 1a.7.7 0 0 0-.7.7v5.15L2.05 1.107A.7.7 0 0 0 1 1.712v12.575a.7.7 0 0 0 1.05.607L12 9.149V14.3a.7.7 0 0 0 .7.7h1.6a.7.7 0 0 0 .7-.7V1.7a.7.7 0 0 0-.7-.7h-1.6z"
+                  ></path>
+                </svg>
+              </button>
+              <button>
+                <svg
+                  data-encore-id="icon"
+                  role="img"
+                  aria-hidden="true"
+                  viewBox="0 0 16 16"
+                  class="Svg-sc-ytk21e-0 kPpCsU"
+                >
+                  <path
+                    d="M0 4.75A3.75 3.75 0 0 1 3.75 1h8.5A3.75 3.75 0 0 1 16 4.75v5a3.75 3.75 0 0 1-3.75 3.75H9.81l1.018 1.018a.75.75 0 1 1-1.06 1.06L6.939 12.75l2.829-2.828a.75.75 0 1 1 1.06 1.06L9.811 12h2.439a2.25 2.25 0 0 0 2.25-2.25v-5a2.25 2.25 0 0 0-2.25-2.25h-8.5A2.25 2.25 0 0 0 1.5 4.75v5A2.25 2.25 0 0 0 3.75 12H5v1.5H3.75A3.75 3.75 0 0 1 0 9.75v-5z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="bar">
+            <div><span>0:00</span></div>
+            <div>
+              <progress value="0" min="0" max="100"></progress>
+              <div></div>
+            </div>
+            <div><span>0:00</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="additive">
+        <div class="volume">
+          <button>
+            <svg
+              data-encore-id="icon"
+              role="presentation"
+              aria-label="볼륨 낮음"
+              aria-hidden="true"
+              id="volume-icon"
+              viewBox="0 0 16 16"
+              class="Svg-sc-ytk21e-0 dAOlPY"
+            >
+              <path
+                d="M9.741.85a.75.75 0 0 1 .375.65v13a.75.75 0 0 1-1.125.65l-6.925-4a3.642 3.642 0 0 1-1.33-4.967 3.639 3.639 0 0 1 1.33-1.332l6.925-4a.75.75 0 0 1 .75 0zm-6.924 5.3a2.139 2.139 0 0 0 0 3.7l5.8 3.35V2.8l-5.8 3.35zm8.683 4.29V5.56a2.75 2.75 0 0 1 0 4.88z"
+              ></path>
+            </svg>
+          </button>
+          <div>
+            <progress value="15" min="0" max="100"></progress>
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
